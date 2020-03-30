@@ -7,7 +7,7 @@ layout: default
 ## Team 6
 ### Sean Pedersen |Zhehui Yuan | Brooke Ealey | Cole Smith
 ### Team Presentation 2 Kaggle
-<img src="/img/svm.jpg" width="300" height="200" class="img-responsive" alt=""> 
+<img src="/img/svm.PNG" width="300" height="200" class="img-responsive" alt=""> 
 
 
 ### Team Presentation 1 Machine Learning Tree Methods
