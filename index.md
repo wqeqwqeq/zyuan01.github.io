@@ -1,7 +1,7 @@
 
 
 # BUAD5082 Machine Learning 2
-## Team 6
+## Team 20
 ### Sean Pedersen | Zhehui Yuan | Brooke Ealey | Cole Smith
 <img src="/img/svm.PNG" width="300" height="200" class="img-responsive" alt=""> 
 
