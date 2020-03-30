@@ -5,10 +5,9 @@ layout: default
 
 # BUAD5082 Machine Learning 2
 ## Team 6
-### Chris Conlan | Bryan Hannah | Jiao Jiang | Luc Maestrello
-
+### Sean Pedersen |Zhehui Yuan | Brooke Ealey | Cole Smith
 ### Team Presentation 2 Kaggle
-<img src="/class_project/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
+<img src="/img/svm.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
 
 ### Team Presentation 1 Machine Learning Tree Methods
