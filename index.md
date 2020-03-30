@@ -1,16 +1,12 @@
----
-layout: default
----
 
 
 # BUAD5082 Machine Learning 2
 ## Team 6
 ### Sean Pedersen |Zhehui Yuan | Brooke Ealey | Cole Smith
-### Team Presentation 2 Kaggle
 <img src="/img/svm.PNG" width="300" height="200" class="img-responsive" alt=""> 
 
 
-### Team Presentation 1 Machine Learning Tree Methods
+### Team Presentation 1 Machine Learning SVM
 
 8.3.3 & 8.3.4 Lab: Bagging, Random Forests, Boosting
   - [View R Markdown](Lab.html)
