@@ -1,5 +1,5 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+title: ML-Presentation
+description: We will show the usage of ROC curves and SVM with multiple categories classification
+show_downloads: False
 google_analytics:
 theme: jekyll-theme-cayman
