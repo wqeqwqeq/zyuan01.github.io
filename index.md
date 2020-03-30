@@ -8,14 +8,11 @@
 
 ### Team Presentation 1 Machine Learning SVM
 
-8.3.3 & 8.3.4 Lab: Bagging, Random Forests, Boosting
-  - [View R Markdown](Lab.html)
+Lab_9_6_3
+  - [View R Markdown](code/Lab_9_6_3.Rmd)
 
-8.3.3 R Code: Bagging and Random Forests
-  - [View R Code1](8.3.3.R)
+Lab_9_6_4
+  - [View R Code](code/lab_9_6_4.Rmd)
 
-8.3.4 R Code: Boosting
-  - [View R Code2](8.3.4.R)
-
-8.4.7 Applied Exercise
-  - [View R Code3](8.4.7.R)
+Applied Exercise_5
+  - [View R Code](code/Applied_Exercise_5.R)
