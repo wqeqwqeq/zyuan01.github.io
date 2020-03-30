@@ -1,0 +1,78 @@
+---
+title: "Group_20_TP1"
+author: "Sean Pedersen, Brooke Ealey, Stanley Yuan, Cole Smith"
+date: "3/27/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## We use the ROCR package to produce ROC curves on the predictions from the test subset. The e1071 package is used to call the svm() function.
+
+```{r}
+
+rm(list=ls())
+installIfAbsentAndLoad <- function(neededVector) {
+  for(thispackage in neededVector) {
+    if( ! require(thispackage, character.only = T) )
+    { install.packages(thispackage)}
+    require(thispackage, character.only = T)
+  }
+}
+
+needed <- c('e1071','ROCR')  
+installIfAbsentAndLoad(needed)
+```
+
+#### Preload data
+```{r}
+set.seed(1)
+x<-matrix(rnorm (200*2) , ncol=2)
+x[1:100,]<-x[1:100,]+2
+x[101:150 ,]<-x[101:150,]-2
+y<-c(rep(1,150) ,rep(2,50))
+dat<-data.frame(x=x,y=as.factor(y))
+train<-sample (200,100)
+```
+
+#### Function to plot ROC curve 
+```{r}
+rocplot <- function (pred , truth , ...){
+  predob = prediction (pred , truth)
+  perf = performance (predob , "tpr", "fpr")
+  plot(perf ,...)
+}
+```
+
+## Instead of getting the class labels, we can also get fitted values from svm() using decision.values = TRUE parameter
+
+```{r}
+svmfit.opt<- svm(y~ ., data=dat[train ,], kernel ="radial", gamma=2, cost=1, decision.values =T)
+fitted <-attributes (predict (svmfit.opt ,dat[train ,], decision.values=TRUE))$decision.values
+```
+
+## We generate the ROC curve with the rocplot() function. We can also change the value of gamma and see if it improves our predictions.
+
+```{r}
+par(mfrow = c(1, 2))
+rocplot(fitted, dat[train, "y"], main = "Training Data")
+
+svmfit.flex <- svm(y ~ ., data = dat[train, ], kernel = "radial", gamma = 50, cost = 1, decision.values = TRUE)
+fitted <- attributes(predict(svmfit.flex, dat[train, ], decision.values = T))$decision.values
+rocplot(fitted, dat[train, "y"], add = T, col = "red")
+
+```
+
+```{r}
+fitted <- attributes(predict(svmfit.opt, dat[-train, ], decision.values = T))$decision.values
+rocplot(fitted, dat[-train, "y"], main = "Test Data")
+fitted <- attributes(predict(svmfit.flex, dat[-train, ], decision.values = T))$decision.values
+rocplot(fitted, dat[-train, "y"], add = T, col = "red")
+```
+
+
