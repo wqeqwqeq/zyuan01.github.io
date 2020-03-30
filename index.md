@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: ML-Presentation
+description: We will show the usage of ROC curves and SVM with multiple categories classification
+---
 
 # BUAD5082 Machine Learning 2
 ## Team 20
