@@ -13,10 +13,10 @@ description: We will show the usage of ROC curves and SVM with multiple categori
 ### Team Presentation 1 Machine Learning SVM
 
 Lab_9_6_3
-  - [View R Markdown](code/Lab_9_6_3.Rmd)
+  - [View R Markdown](code/Lab_9_6_3.html)
 
 Lab_9_6_4
-  - [View R Code](code/Lab_9_6_4.Rmd)
+  - [View R Markdown](code/Lab_9_6_4.html)
 
 Applied Exercise_5
   - [View R Code](code/Applied_Exercise_5.R)
