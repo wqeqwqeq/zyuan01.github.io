@@ -14,9 +14,11 @@ description: We will show the usage of ROC curves and SVM with multiple categori
 
 Lab_9_6_3
   - [View R Markdown](code/Lab_9_6_3.html)
+  - [Download here](code/Lab_9_6_3.Rmd)
 
 Lab_9_6_4
   - [View R Markdown](code/Lab_9_6_4.html)
-
+  - [Download here](code/Lab_9_6_4.Rmd)
+  
 Applied Exercise_5
   - [View R Code](code/Applied_Exercise_5.R)
