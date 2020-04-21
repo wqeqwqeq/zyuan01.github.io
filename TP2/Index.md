@@ -13,6 +13,6 @@ description: We will use clustering analysis and prophet package to predict the 
 ### Team Presentation 2
 
 
-  - [View R Markdown]()
-  - [Download code here]()
+  - [View R Markdown](Group_20_TP2.R)
+  - [Download code here](Team-20.HTML)
   - [Download code here]()
