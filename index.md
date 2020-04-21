@@ -22,3 +22,6 @@ Lab_9_6_4
   
 Applied Exercise_5
   - [View R Code](code/Applied_Exercise_5.R)
+
+ - [TP](ML2-TP1)
+
