@@ -7,7 +7,7 @@ description: This is team 20 project website
 # BUAD5082 Machine Learning 2
 ## Team 20
 ### Sean Pedersen | Zhehui Yuan | Brooke Ealey | Cole Smith
-<img src="/img/ML.png" width="400" height="200" class="img-responsive" alt=""> 
+<img src="/img/ML.png" width="600" height="200" class="img-responsive" alt=""> 
 
 
 ### Team Presentation 1 Machine Learning SVM
