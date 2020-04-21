@@ -1,21 +1,18 @@
 ---
 layout: default
-title: ML-Presentation
-description: We will show the usage of ROC curves and SVM with multiple categories classification
+title: ML-Presentations
+description: This is team 20 project website
 ---
 
 # BUAD5082 Machine Learning 2
 ## Team 20
 ### Sean Pedersen | Zhehui Yuan | Brooke Ealey | Cole Smith
-<img src="/img/svm.PNG" width="300" height="200" class="img-responsive" alt=""> 
+<img src="/img/Ml.PNG" width="300" height="200" class="img-responsive" alt=""> 
 
 
 ### Team Presentation 1 Machine Learning SVM
-
-Lab_9_6_3
-  - [View R Markdown](code/Lab_9_6_3.html)
-  - [Download here](code/Lab_9_6_3.Rmd)
-
-
  - [SVM and ROC application ](/code/index.md)
 
+
+### Team Presentation 2 Time series
+ - [ Predicting visitor volume for Japanese restaurants ](/code/index.md)
