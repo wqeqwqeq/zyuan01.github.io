@@ -16,12 +16,6 @@ Lab_9_6_3
   - [View R Markdown](code/Lab_9_6_3.html)
   - [Download here](code/Lab_9_6_3.Rmd)
 
-Lab_9_6_4
-  - [View R Markdown](code/Lab_9_6_4.html)
-  - [Download here](code/Lab_9_6_4.Rmd)
-  
-Applied Exercise_5
-  - [View R Code](code/Applied_Exercise_5.R)
 
- - [TP](ML2-TP1)
+ - [SVM and ROC application ](/code/index.md)
 
