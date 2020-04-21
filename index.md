@@ -15,4 +15,4 @@ description: This is team 20 project website
 
 
 ### Team Presentation 2 Time series
- - [ Predicting visitor volume for Japanese restaurants ](/code/index.md)
+ - [ Predicting visitor volume for Japanese restaurants ](/TP2/index.md)
